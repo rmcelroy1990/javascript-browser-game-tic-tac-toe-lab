@@ -21,13 +21,14 @@ let playerO = ['O'];
 
 /*------------------------ Cached Element References ------------------------*/
 
-const squareEls = document.querySelectorAll('.sqr');
+const squareEls = document.querySelectorAll('.square');
 const messageEl = document.querySelector('h2');
-const resetBtnEl = document.querySelector('click');
+const resetBtnEl = document.querySelector('.reset');
 
 //console.log(squareEls)
 
 /*-------------------------------- Functions --------------------------------*/
+
 init();
 
 const init = () => {
